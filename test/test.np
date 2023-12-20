@@ -1,0 +1,10 @@
+INPUT = OpenFileObject{ Filename = testing.txt; }
+IncludeFile {				     
+	Filename = create.np;
+}
+TestSingle {
+	Obj = SIN;
+	InpFileObj  = INPUT;
+	OutFileName = result.txt;
+}
+$

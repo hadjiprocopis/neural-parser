@@ -1,0 +1,22 @@
+These m4 macro files are copied verbatim from fftw-3.1.2 
+
+It is a cpu-intensive application and therefore must
+contain a good cpu-enhancing capabilities during configure.
+
+FFTW was written by Matteo Frigo and Steven G. Johnson.  You can
+contact them at fftw@fftw.org.  The latest version of FFTW,
+benchmarks, links, and other information can be found at the FFTW home
+page (http://www.fftw.org).  You can also sign up to the fftw-announce
+mailing list to receive (infrequent) updates and information about new
+releases; to do so, go to:
+
+        http://www.fftw.org/mailman/listinfo/fftw-announce
+
+andreas hadjiprocopis,
+2007
+
+author: Andreas Hadjiprocopis
+andreashad2@gmail.comn (ex livantes@soi.city.ac.uk)
+http://nfkb.scienceontheweb.net (ex http://soi.city.ac.uk/~livantes)
+
+

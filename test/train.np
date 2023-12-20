@@ -1,0 +1,34 @@
+# the training file
+A_FILE = OpenFileObject {
+	Filename = training.txt;
+}
+IncludeFile {
+	# read and execute the creation of the neural network
+	# saved as SIN
+	Filename = create.np;
+}
+# train the neural network
+TrainSingle {
+	Obj  = SIN;
+	InpFileObj  = A_FILE;
+	Iters = 1000;
+	Beta = 0.1;
+	Lamda = 0.0;
+	Seed = 1234;
+	# in order to observe evolution of weights we can save them occasionally
+	SaveWeightsEveryNIterations = 100;
+	# print progress report every so often
+	ShowProgressEveryNIterations = 100;
+	# to this log file
+	ProgressFilename = progress.txt;
+
+	UniqueWeightsFile = no;
+	Silent = Yes;
+}
+# tell us that training has finished, it can also send an email...
+SendInformation {
+	OutFileName = finished.txt;
+	Message = @ Single FFNN;
+	Obj = SIN;
+}
+$

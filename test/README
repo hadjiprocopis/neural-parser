@@ -1,0 +1,13 @@
+np train.np
+
+and then
+
+np test.np
+
+If it complains that it can not find gawk, the
+easiest to do is to do the following
+
+mkdir ~/usr/bin
+ln -s /usr/bin/gawk ~/usr/bin
+
+AHP

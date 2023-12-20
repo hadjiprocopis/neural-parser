@@ -1,0 +1,2 @@
+ACLOCAL_AMFLAGS = -I m4
+SUBDIRS = libsvm-3.1

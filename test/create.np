@@ -1,0 +1,14 @@
+SIN = CreateSingle {
+# this is a plain, monolithic feed forward neural network
+	SingleType = FFNN;
+# oh this is deeeeep neeeet!
+#	Arch = 14 53 139 73 31 3;
+	Arch = 14 31 3;
+# weights file
+	Weights = W_SINGLE;
+# output sigmoid?
+	Sigmoid = Yes;
+# this is a classification task
+       NumOutputClasses = 2;
+}
+$ # <<< end of file
