@@ -1,10 +1,11 @@
 # neural-parser
 This is a language for describing a single FFNN (feed forward neural network)
 or an entity of FFNN (an FFNNE) connected together, train them
-and tess them. It does a lot to the background and made it
+and test them. It does a lot to the background and made it
 easier for me to automate the creation of FFNN/FFNNE and assess them.
 
-It is written in perl.
+It is written in perl in around 1995 for the purposes of my PhD research. It probably needs a major rewrite.
+
 
 Over the years I have added functionality for manipulating data files
 for training and testing the networks. Most importantly, I have added
